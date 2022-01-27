@@ -136,5 +136,5 @@ def update_view_curso(request, int):
  
     # add form dictionary to context
     context["form"] = form
- 
+    print("a")
     return render(request, "update_view_estudiante.html", context)
